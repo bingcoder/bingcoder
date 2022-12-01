@@ -12,7 +12,10 @@ import './App.css';
 const apps = [
   {
     name: 'type-challenges',
-    url: process.env.NODE_ENV === 'development' ? 'http://localhost:8081' : '/type-challenges',
+    url:
+      process.env.NODE_ENV === 'development'
+        ? 'http://localhost:8081'
+        : 'https://bingcoder.github.io/type-challenges',
   },
 ];
 
